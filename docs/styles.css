@@ -1,0 +1,84 @@
+/* paleta */
+:root {
+  --terra: #b5623b;
+  --argila: #d08a61;
+  --areia: #e6d4c3;
+  --creme: #f5efe8;
+  --marrom: #5c3b2b;
+  --texto: #2b221d;
+}
+
+/* base */
+body {
+  font-family: Aptos, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--creme);
+  color: var(--texto);
+  font-size: 1.02rem;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+/* largura do conteúdo */
+main.content,
+#quarto-content,
+.quarto-container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* títulos */
+h1, h2, h3, h4 {
+  font-family: Aptos, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: var(--marrom);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* parágrafos */
+p {
+  margin-bottom: 1.15rem;
+}
+
+/* links */
+a {
+  color: var(--terra);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--marrom);
+  text-decoration: underline;
+}
+
+/* navbar */
+.navbar {
+  background-color: #f7f1eb;
+  border-bottom: 1px solid var(--areia);
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-family: Aptos, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: var(--marrom) !important;
+  font-weight: 600;
+}
+
+/* área principal */
+#quarto-content {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}

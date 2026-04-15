@@ -11,7 +11,7 @@ website:
         text: About
       - href: projects.qmd
         text: Projects
-      - href: Outreach.qmd
+      - href: outreach.qmd
         text: Outreach
       - href: contact.qmd
         text: Contact

@@ -1,7 +1,7 @@
 ---
 title: ""
 ---
-## About me
+# About me
 You can call me a half-vegetation and half-(meta)community ecologist.
 I am a latina from **Brazil**, so if you like we can talk in Portuguese! I consider myself fluent in English (but I am always trying to improve) and a beginner*ish* in French (we can give it a try!).
 

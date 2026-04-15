@@ -8,16 +8,20 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About me
+        text: About
       - href: projects.qmd
         text: Projects
+      - href: Outreach.qmd
+        text: Outreach
       - href: contact.qmd
         text: Contact
+  search: true
+  page-footer: 
+    left: "© Gabriela Dezotti"
+    right: "Built with Quarto"
 
 format:
   html:
-    theme:
-     light: flatly
-      dark: darkly
+    theme: litera
     css: styles.css
     toc: false

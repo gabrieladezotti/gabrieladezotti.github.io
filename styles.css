@@ -1,7 +1,61 @@
+/* cores principais */
+:root {
+  --terra: #B65E3C;
+  --argila: #D98B5F;
+  --areia: #EAD8C8;
+  --creme: #F6EFE8;
+  --marrom: #5A3A2A;
+  --texto: #2E241E;
+}
+
 body {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 20px;
-  font-size: 18px;
-  line-height: 1.6;
+  font-family: Aptos, "Aptos Display", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: var(--texto);
+  background-color: var(--creme);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4 {
+  color: var(--marrom);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: var(--terra);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--marrom);
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #fffaf6;
+  border-bottom: 1px solid var(--areia);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: var(--marrom) !important;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--terra);
+  border-color: var(--terra);
+}
+
+.btn-primary:hover {
+  background-color: var(--marrom);
+  border-color: var(--marrom);
+}
+
+.section-card {
+  background: #fffaf6;
+  border: 1px solid var(--areia);
+  border-radius: 18px;
+  padding: 1.2rem;
 }

@@ -1,22 +1,18 @@
 ---
 title: ""
+page-layout: full
 ---
 
-<div class="hero-side">
-  <div class="hero-photo">
-    <img src="images/hero.jpg" alt="Gabriela Dezotti in the field">
-  </div>
-    <div class="hero-text">
-        <h1>Gabriela Dezotti</h1>
-        <p>Ecologist | PhD Candidate at UNESP</p>
-    </div>
-</div>
+::: {.hero-grid}
+::: {.hero-photo}
+![](images/home1.jpg){.hero-image fig-alt="That's me being extremely happy in the field"}
+:::
 
+::: {.hero-text}
 ## Hello!
-
 My name is Gabriela Dezotti **(she/her)** and I am currently a PhD candidate in the Ecology, Evolution and Biodiversity Programme at Universidade Estadual Paulista [(UNESP)](https://ib.rc.unesp.br/) in Rio Claro, Brazil.
 
-I am a member of the [BioMe Group](https://tsiqueiralab.weebly.com/) being supervised by Professor [Tadeu Siqueira](https://scholar.google.com/citations?user=T0QGyQIAAAAJ&hl=en). 
+I am a member of the [BioMe Group](https://tsiqueiralab.weebly.com/) and am supervised by Professor [Tadeu Siqueira](https://scholar.google.com/citations?user=T0QGyQIAAAAJ&hl=en).
 
 I consider myself a **work-in-progress** ecologist with a strong interest in disturbances. Right now, I am exploring how novel disturbance regimes affect diversity within an integrated framework that considers time, space, and organizational scale.
 My work is usually focused on **fire-modulated systems**, but I am also interested in other types of disturbances, such as droughts and floods.
@@ -24,3 +20,5 @@ Besides my research, I am deeply interested in FAIR data management and open sci
 
 You can find more about my research here and what I'm doing right now in the [About](about.qmd) and [Projects](projects.qmd) sections.
 If you want to get in touch, check out the [Contact](contact.qmd) page!
+:::
+:::

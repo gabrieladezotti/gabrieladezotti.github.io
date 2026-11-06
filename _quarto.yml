@@ -4,20 +4,19 @@ project:
 
 website:
   title: "Gabriela Dezotti"
+
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: about.qmd
         text: About
       - href: projects.qmd
         text: Projects
       - href: outreach.qmd
         text: Outreach
-      - href: contact.qmd
-        text: Contact
+
   search: true
-  page-footer: 
+
+  page-footer:
     left: "© Gabriela Dezotti"
     right: "Built with Quarto"
 
@@ -26,4 +25,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
-    
+    anchor-sections: false

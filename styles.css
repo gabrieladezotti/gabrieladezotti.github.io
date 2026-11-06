@@ -1,51 +1,35 @@
-/* paleta */
+/* ===== PALETA ===== */
+
+/* Paleta — café com leite */
 :root {
-  --terra: #b5623b;
-  --argila: #d08a61;
-  --areia: #e6d4c3;
-  --creme: #f5efe8;
-  --marrom: #5c3b2b;
-  --texto: #2b221d;
+  --terra: #85513e;
+  --argila: #c79a80;
+  --areia: #e5d9ce;
+  --creme: #f7f3ee;
+  --marrom: #51392e;
+  --texto: #302823;
 }
 
-/* base */
+
+/* ===== BASE ===== */
+
 body {
+  margin: 0;
   font-family: Aptos, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   background-color: var(--creme);
   color: var(--texto);
   font-size: 1.02rem;
   line-height: 1.7;
   font-weight: 400;
-  overflow-x: hidden;
 }
 
-/* largura geral da página */
-#quarto-content {
-  width: calc(100vw - 2rem) !important;
-  max-width: none !important;
-  margin-left: 1rem !important;
-  margin-right: 0 !important;
-  padding: 1rem 0 3rem 0 !important;
-}
 
-#quarto-document-content {
-  width: 100% !important;
-  max-width: none !important;
-  margin: 0 !important;
-}
+/* ===== TÍTULOS ===== */
 
-main.content,
-.quarto-container,
-.page-columns,
-.page-layout-article {
-  width: 100% !important;
-  max-width: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* títulos */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: Aptos, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   color: var(--marrom);
   font-weight: 700;
@@ -64,12 +48,13 @@ h2 {
   margin-bottom: 0.8rem;
 }
 
-/* texto */
+
+/* ===== TEXTO E LINKS ===== */
+
 p {
   margin-bottom: 1.05rem;
 }
 
-/* links */
 a {
   color: var(--terra);
   text-decoration: none;
@@ -80,22 +65,19 @@ a:hover {
   text-decoration: underline;
 }
 
-/* navbar */
+a:focus-visible {
+  outline: 2px solid var(--marrom);
+  outline-offset: 3px;
+}
+
+
+/* ===== NAVBAR ===== */
+
 .navbar {
   background-color: #f7f1eb;
   border-bottom: 1px solid var(--areia);
   padding-top: 0.9rem;
   padding-bottom: 0.9rem;
-}
-
-.navbar > .container,
-.navbar > .container-fluid {
-  max-width: none !important;
-  width: calc(100vw - 2rem) !important;
-  margin-left: 1rem !important;
-  margin-right: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
 }
 
 .navbar-brand,
@@ -105,76 +87,171 @@ a:hover {
   font-weight: 600;
 }
 
-/* hero */
+
+/* ===== HOME ===== */
+
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(620px, 820px) minmax(360px, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: minmax(0, 290px) minmax(0, 1fr);
   align-items: start;
-  margin: 0.5rem 0 2.5rem 0;
+  gap: clamp(1.5rem, 4vw, 3rem);
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 1.5rem auto 2rem;
+  padding-inline: 1rem;
+  box-sizing: border-box;
 }
 
+
+/* Foto */
+
 .hero-photo {
-  width: 100%;
   min-width: 0;
+}
+
+.hero-photo p,
+.hero-photo figure,
+.hero-photo .quarto-figure {
+  margin: 0;
 }
 
 .hero-image {
-  width: 100%;
-  height: 860px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 28px;
   display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 75%;
+  border-radius: 50%;
 }
+
+
+/* Texto da Home */
 
 .hero-text {
-  max-width: none;
   min-width: 0;
-  padding-top: 0.2rem;
-}
-
-.hero-text h1 {
-  margin: 0 0 0.8rem 0;
-  font-size: 3.35rem;
-  line-height: 1.02;
+  padding: 0;
 }
 
 .hero-text p {
-  font-size: 1.08rem;
-  line-height: 1.68;
+  font-size: 1rem;
+  line-height: 1.7;
   margin-bottom: 1rem;
+  letter-spacing: -0.01em;
 }
 
-/* mobile */
-@media (max-width: 1100px) {
-  #quarto-content {
-    width: calc(100vw - 1rem) !important;
-    margin-left: 0.5rem !important;
-    padding-top: 1rem !important;
-  }
+.hero-text > :last-child {
+  margin-bottom: 0;
+}
 
-  .navbar > .container,
-  .navbar > .container-fluid {
-    width: calc(100vw - 1rem) !important;
-    margin-left: 0.5rem !important;
-  }
 
+/* ===== TELAS MENORES ===== */
+
+@media (max-width: 800px) {
   .hero-grid {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
   }
 
-  .hero-image {
-    height: auto;
-    max-height: none;
+  .hero-photo {
+    width: 100%;
+    max-width: 300px;
+    margin-inline: auto;
   }
+}
 
-  .hero-text h1 {
-    font-size: 2.5rem;
-  }
+/* Links abaixo da foto */
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem 0.9rem;
+  margin-top: 1.25rem;
+}
 
-  .hero-text p {
-    font-size: 1.02rem;
+.profile-links a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0;
+  color: var(--marrom);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-decoration: underline;
+  text-decoration-color: var(--areia);
+  text-underline-offset: 0.25em;
+}
+
+.profile-links a:hover {
+  color: var(--terra);
+  text-decoration-color: currentColor;
+}
+
+/* Mantém a foto menor também no celular */
+@media (max-width: 800px) {
+  .hero-photo {
+    max-width: 290px;
   }
+}
+
+/* Título da apresentação — aplicado somente ao h1 */
+.hero-text h1.home-greeting {
+  font-family: Aptos, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+/* Pronomes */
+.home-greeting .home-pronouns {
+  display: inline-block;
+  font-size: 0.55em;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* Ícones de contato abaixo da foto */
+.hero-photo .profile-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.hero-photo .profile-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #795548;
+  font-size: 2rem;
+  line-height: 1;
+  text-decoration: none;
+
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0.25rem;
+
+  transition: color 0.2s ease;
+}
+
+.hero-photo .profile-links a:hover {
+  color: #4e342e;
+}
+
+.hero-photo .profile-links a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 5px;
 }

@@ -2,21 +2,21 @@
 title: ""
 ---
 # About
-You can think of me as half-vegetation and half-(meta)community ecologist.
+I like to think of myself as part metacommunity ecologist, part open science enthusiast, with a soft spot for open ecosystems. I’m happiest when I get to learn, teach, and figure things out with other people.
 
-I am a latina from **Brazil**, so we can absolutely talk in *Portuguese*!
-I’m fluent(?) in English (always trying to improve), and beginner-ish in French, which I’m still learning but happy to practice.
+I’m a Latina from Brazil, so we can absolutely talk in Portuguese! I’m also happy to chat in English. I can read and understand spoken French, but speaking it is still a little adventure — one I’m happy to try!
 
-I got my **BSc in Biology** (2021) and **MSc in EcoEvoBio** (2024) from Universidade Estadual Paulista (UNESP), in Rio Claro, Brazil. Last year, I also worked here as research technian (2025) with data management of the [Cerrado On Fire](https://bv.fapesp.br/pt/bolsas/224767/implementacao-de-um-banco-de-dados-sobre-dados-ecologicos-de-comunidades-de-plantas-sob-manejo-de-fo/) project.
+## How I got here
 
-My work with disturbance ecology began during my BSc, when I [studied](https://repositorio.unesp.br/server/api/core/bitstreams/8201fbe9-6338-4035-9833-f5ffc20c051f/content) changes in beta diversity across communities under different fire regimes. Later in my BSc, I also explored the combined effects of biological invasion and fire on plant communities, which led to [my first publication](https://onlinelibrary.wiley.com/doi/10.1111/jvs.13250).
+I got my BSc in Biology (2021) and MSc in Ecology, Evolution and Biodiversity (2024) at Universidade Estadual Paulista (UNESP), in Rio Claro, Brazil. In 2025, I also worked there as a research technician, helping with data management for the [Cerrado On Fire](https://bv.fapesp.br/pt/bolsas/224767/implementacao-de-um-banco-de-dados-sobre-dados-ecologicos-de-comunidades-de-plantas-sob-manejo-de-fo/) project.
 
-explored the combined effects of biological invasion and fire on plant communities, which led to my first publication.
+My interest in disturbance ecology started during my undergraduate studies, when I [studied](https://repositorio.unesp.br/server/api/core/bitstreams/8201fbe9-6338-4035-9833-f5ffc20c051f/content) beta diversity across communities under different fire regimes. I also explored how biological invasion and fire interact to shape plant communities, which led to [my first publication](https://onlinelibrary.wiley.com/doi/10.1111/jvs.13250).
 
-Over time, my interest in vegetation ecology grew through working with the herbaceous-shrub layer of the Cerrado, which I still consider the most beautiful biome in the world. More recently, though, my questions have expanded beyond fire itself. That shift led me to pursue a PhD with a broader, more macroecological perspective, where I focus less on a single disturbance and more on the ecological **mechanisms behind biodiversity patterns**.
+Working with the herbaceous layer of the Cerrado, still the most beautiful biome in the world, helped grow my love for vegetation ecology. These days, my PhD questions take me beyond fire: I’m interested in how novel disturbance regimes shape biodiversity across time, space, and levels of ecological organization.
 
-My current research focuses on how novel disturbance regimes affect different components of biodiversity across temporal, spatial, and organizational scales. Although my work is grounded in fire-driven ecosystems, I am also interested in other disturbances, such as **drought** and **herbivory**, and in how these processes shape **open ecosystems** and plant communities more generally.
+## The science I want to help build
 
-I’m really into **open science, good data practices**, and all the conversations around making **research more accessible, transparent, and reproducible**. I could happily spend a long time talking about FAIR principles and related topics. These interests have also led me to think more broadly about the *kind of academic culture we create*, which is why I’ve been spending more of my recent time engaging with questions around equity and mental well-being in academia.
+Also, I could happily spend a long time talking about open science, FAIR principles, and good data practices. 
+As an OS instructor, I also want to make room for questions, practice, and learning together. These interests keep bringing me back to a question: what kind of science are we really trying to do? And what kind of academic culture makes it possible? I care about what we discover, but also about how we get there, whose voices are heard, and how we treat one another along the way. I want to help build spaces where people feel welcome, supported, and able to ask questions without having to prove they belong. To me, equity and mental well-being aren’t extras, they’re part of the science culture we need to build.
 
-If you are interested in discussing or collaborating on any of these topics, feel free to get in touch.
+You don’t need to have a project in mind to say hello. If you’d like to exchange ideas, ask a question, or figure something out together, [I’d be happy to hear from you](mailto:gabriela.dezotti@unesp.br).

@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Gabriela Dezotti"
+  site-url: https://gabrieladezotti.github.io/
 
   navbar:
     left:

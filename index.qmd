@@ -55,13 +55,13 @@ I’m a PhD candidate in Ecology, Evolution and Biodiversity at [Universidade Es
 
 I’m a work-in-progress ecologist, curious about how disturbances shape biodiversity and what happens when disturbance regimes change. Most of my work has grown out of fire-modulated ecosystems, but my questions keep taking me beyond fire.
 
-I also spend a lot of time thinking about how we do science — how we document our work, share what we learn, and make it easier for others to build on it. Open science and FAIR data practices are a big part of that.
+I also spend a lot of time thinking about how we do science, how we document our work, share what we learn, and make it easier for others to build on it. Open science and FAIR data practices are a big part of that.
 
 Teaching is another part of this that means a lot to me. I’m now an instructor, and I want to help make learning feel welcoming: somewhere there’s room for questions, for trying things out, and for figuring things out together.
 
 You can read more about my path in [About](about.qmd), explore my research in [Projects](projects.qmd), or find some of what I share in [Outreach](outreach.qmd).
 
-And if you’d like to talk ecology, open science, or something you’re learning, I’d be happy to hear from you — [say hello](mailto:gabriela.dezotti@unesp.br)!
+And if you’d like to talk ecology, open science, or something you’re learning, I’d be happy to hear from you, just [say hello](mailto:gabriela.dezotti@unesp.br)!
 
 :::
 ::::

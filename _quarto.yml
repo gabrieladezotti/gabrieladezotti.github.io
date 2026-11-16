@@ -9,16 +9,16 @@ project:
 
 website:
   title: "Gabriela Dezotti"
-  site-url: https://gabrieladezotti.github.io/
+  site-url: "https://gabrieladezotti.github.io/"
 
   navbar:
     left:
       - href: about.qmd
         text: About
       - href: projects.qmd
-        text: Projects
+        text: Questions & Research
       - href: outreach.qmd
-        text: Outreach
+        text: Building Science Together
 
   search: true
 
